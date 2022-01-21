@@ -1,12 +1,16 @@
 string=input()
 number=string.split()
+
 width=int(number[1])
 height=int(number[0])
+
 if height==1:
     print(1)
+
 elif height==2:
     temp=[(width+1)//2,4]
     print(min(temp))
+
 elif height>=3:
     if width>=7:
         print(width-2)
