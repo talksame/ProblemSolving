@@ -1,8 +1,4 @@
-string=input()
-number=string.split()
-
-width=int(number[1])
-height=int(number[0])
+width, height = map(int, input().split())
 
 if height==1:
     print(1)
